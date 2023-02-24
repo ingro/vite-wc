@@ -19,7 +19,7 @@ const userObj = props.user ? JSON.parse(props.user) : {};
 </template>
 
 <style>
-@import url('./style.css');
+/* @import url('./style.css'); */
 
 .logo {
   height: 6em;

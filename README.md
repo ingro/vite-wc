@@ -46,7 +46,7 @@ import './index.js'
 </script>
 
 <template>
-  <app-wc msg="Ciao" />
+  <foo-wc msg="Ciao" />
 </template>
 
 <style>

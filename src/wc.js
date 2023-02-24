@@ -1,12 +1,12 @@
 import { defineCustomElement } from 'vue'
 
-import App from './App.ce.vue';
 import Foo from './Foo.ce.vue';
+import Bar from './Bar.ce.vue';
 
-const AppWc = defineCustomElement(App);
 const FooWc = defineCustomElement(Foo);
+const BarWc = defineCustomElement(Bar);
 
-customElements.define('app-wc', AppWc);
 customElements.define('foo-wc', FooWc);
+customElements.define('bar-wc', BarWc);
 
-export { AppWc, FooWc };
+export { FooWc, BarWc };

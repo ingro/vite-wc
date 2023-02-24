@@ -4,12 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test Produzione</title>
+    <style>
+      button {
+        background-color: red;
+      }
+    </style>
   </head>
   <body>
     <div id="app">
+        <button>Ciao</button>
         <foo-wc msg="Guarda, sono in TV!"></foo-wc>
         <foo-wc msg="TITANKA!"></foo-wc>
-        <app-wc user='{ "name": "Pippo" }'></app-wc>
+        <bar-wc user='{ "name": "Pippo" }'></bar-wc>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.47/vue.runtime.global.prod.min.js" integrity="sha512-78BMKgW1nAPAOpNwQyzJ917vROLVM/Ikyr7+u4R2ailJujjf0JkkMicOHgVM3/nurB9WDRgZXQp8Tw6ovI7VWw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="vite-wc.umd.cjs"></script>
