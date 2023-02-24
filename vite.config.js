@@ -27,7 +27,7 @@ export default defineConfig(({ command }) => {
           }
         }
       },
-      minify: false
+      // minify: false
     },
     // define: {
     //   'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
